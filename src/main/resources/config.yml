@@ -1,0 +1,81 @@
+Utils:
+  iconURL: "https://images-ext-2.discordapp.net/external/AuUUQgcieuKl4ZeY4I56Ydhvep_1ear5yc1hCktfKsM/%3Fsize%3D2048/https/cdn.discordapp.com/icons/232865546868228106/a_ab18bcc7cb6b85bf5e040d7a7865ea73.gif?width=559&height=559"
+  Footer: "DreamCrafter 築夢物語 ⋄ 技術開發"
+  Author: "線上商城交易紀錄"
+
+MerchandiseSellLog:
+  DiscordChannelId:
+    LogChannel: 961303765191884862
+    ServerChannel: 961303765191884862
+  EmbedTitle: ":moneybag:「物品上架」"
+  EmbedColor: "#19db72"
+  EmbedDescription: "> 玩家 **`%player_name%`** 以 $%price% 發布了 %item_amount% 個 **`%item_name%`**\n\n上架時間: <t:%timestamp%>"
+  EmbedDescriptionWithCustomId: "> 玩家 **`%player_name%`** 以 $%price% 發布了 %item_amount% 個 **`%item_name%`**\n> (自定義名稱: **`%item_displayName%`**)\n\n上架時間: <t:%timestamp%> )"
+
+MerchandiseBuyLog:
+  DiscordChannelId:
+    LogChannel: 961303765191884862
+    ServerChannel: 961303765191884862
+  EmbedTitle: ":moneybag:「物品上架」"
+  EmbedColor: "#19db72"
+  EmbedDescription: "> 玩家 **`%player_name%`** 向市場發布了欲以 %price% 收購 \n> %item_amount% 個 **`%item_name%`** 的請求\n\n發布時間: <t:%timestamp%>"
+  EmbedDescriptionWithCustomId: "> 玩家 **`%player_name%`** 向市場發布了欲以 %price% 收購 \n> %item_amount% 個 **`%item_name%`** (自定義名稱: **`%item_displayName%`**) 的請求\n\n發布時間: <t:%timestamp%>"
+
+MerchandiseSellSuccessLog:
+  DiscordChannelId:
+    LogChannel: 961303765191884862
+    ServerChannel: 961303765191884862
+  EmbedTitle: ":handshake:「物品成交」"
+  EmbedColor: "#19db72"
+  EmbedDescription: "> 玩家 **`%seller%`** 於商城上發布的 %item_amount% 個 **`%item_name%`** \n > 已被玩家 **`%buyer%`** 以 $%price% 的價格買下"
+  EmbedDescriptionWithCustomId: "> 玩家 **`%seller%`** 於商城上發布的 %item_amount% 個 **`%item_name%`**\n> (自定義名稱: **`%item_displayName%`**) \n > 已被玩家 **`%buyer%`** 以 $%price% 的價格買下"
+
+MerchandiseBuySuccessLog:
+  DiscordChannelId:
+    LogChannel: 961303765191884862
+    ServerChannel: 961303765191884862
+  EmbedTitle: ":handshake:「物品成交」"
+  EmbedColor: "#19db72"
+  EmbedDescription: "> 玩家 **`%buyer%`** 於商城上以 $%price% 徵求中的 %item_amount% 個 **`%item_name%`** \n> 已被玩家 **`%seller%`** 成功標下"
+  EmbedDescriptionWithCustomId: "> 玩家 **`%buyer%`** 於商城上以 $%price% 徵求中的 %item_amount% 個 **`%item_name%`** \n (自定義名稱: **`%item_displayName%`**)\n> 已被玩家 **`%seller%`** 成功標下"
+
+AuctionStartLog:
+  DiscordChannelId:
+    LogChannel: 961303765191884862
+    ServerChannel: 961303765191884862
+  EmbedTitle: ":moneybag:「展開競標」"
+  EmbedColor: "#19db72"
+  EmbedDescription: "> 玩家 **`%player_name%`** 以底價 $%price% 展開了競標 %item_amount% 個 **`%item_name%`** \n\n上架時間: <t:%uploadTime%> \n結束時間: <t:%expiredTime%> "
+  EmbedDescriptionWithCustomId: "> 玩家 **`%player_name%`** 以底價 $%price% 展開了競標 %item_amount% 個 **`%item_name%`**  \n (自定義名稱: **`%item_displayName%`**) \n\n上架時間: <t:%uploadTime%> \n結束時間: <t:%expiredTime%> "
+
+AuctionEndFailedLog:
+  DiscordChannelId:
+    LogChannel: 961303765191884862
+    ServerChannel: 961303765191884862
+  EmbedTitle: "�「競標結束」"
+  EmbedColor: "#ff5b36"
+
+AuctionEventLog:
+  DiscordChannelId:
+    LogChannel: 961303765191884862
+    ServerChannel: 961303765191884862
+  EmbedTitle: ":moneybag:「價格追加」"
+  EmbedColor: "#19db72"
+  EmbedDescription: "> 玩家 **`%bid_owner%`** 於商城競標的物品 %item_amount% 個 **`%item_name%`** \n> 已被玩家 **`%newBidder%`** 加價至 $%newPrice%"
+  EmbedDescriptionWithCustomId: "> 玩家 **`%bid_owner%`** 於商城競標的物品 %item_amount% 個 **`%item_name%`** (自定義名稱: **`%item_displayName%`**) \n> 已被玩家 **`%newBidder%`** 加價至 $%newPrice%"
+
+AuctionEndNoBidderLog:
+  DiscordChannelId:
+    LogChannel: 961303765191884862
+    ServerChannel: 961303765191884862
+  EmbedTitle: ":handshake:「競標結束」"
+  EmbedColor: "#19db72"
+
+AuctionEndSuccessLog:
+  DiscordChannelId:
+    LogChannel: 961303765191884862
+    ServerChannel: 961303765191884862
+  EmbedTitle: ":handshake:「競標結束」"
+  EmbedColor: "#19db72"
+  EmbedDescription: "> 玩家 **`%bid_owner%`** 於商城競標的物品 %item_amount% 個 **`%item_name%`** \n> 已被玩家 **`%Buyer%`** 以 $%Price% 拍下"
+  EmbedDescriptionWithCustomId: "> 玩家 **`%bid_owner%`** 於商城競標的物品 %item_amount% 個 **`%item_name%`** (自定義名稱: **`%item_displayName%`**) \n> 已被玩家 **`%Buyer%`** 以 $%Price% 拍下"

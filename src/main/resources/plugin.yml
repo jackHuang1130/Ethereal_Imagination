@@ -1,0 +1,11 @@
+name: DreamUtils
+version: '${version}'
+main: cc.jack4444.dreamutils.DreamUtils
+api-version: '1.20'
+prefix: DreamUtils
+authors: [jack4444]
+depend:
+  - GlobalMarketPlus
+  - DiscordSRV
+  - InteractiveChatDiscordSrvAddon
+  - InteractiveChat
